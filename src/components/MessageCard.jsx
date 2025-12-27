@@ -13,19 +13,17 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Small Fists,
 
-Your personalized birthday message goes here.
+So i do remember the day we met because of TARA♥️(never spoke to you in school haha) I had no idea anyone can put in so much efforts to save a baby kitten 
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+I have seen you how much you care for people and animals that's what makes you "YOU" i know you may form the day I met you form now it has inspired me to to bring out the good in me to help others more as in take in an extra mile put in extra efforts so an life can be saved and help someone to relieve their pain what's what i like about you the most your care feels genuine and real to me 
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+I know world can be cruel can do wrong with us even when you have good intentions so it doesn't mean that you stop caring and change the way you are my wishes for you is never to change no matter what because your existence in someone's life and you efforts do Make a difference in this world and make it even better place for animals and for us humans too 
 
-Happy Birthday! 🎉
+So wishing you the happiest birthday ♥️🎉
 
-— [Your Name]`;
+— from yours Truly hehe`;
 
   // Handle page transitions
   useEffect(() => {

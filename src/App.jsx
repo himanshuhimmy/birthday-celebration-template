@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import { useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import "./App.css";
 import CelebrationPage from "./components/CelebrationPage";
 import Countdown from "./components/Countdown";
@@ -73,13 +73,13 @@ function App() {
     });
   };
 
-  const handleBirthdayReached = () => {
+  const handleBirthdayReached = useCallback(() => {
     setBirthdayReached(true);
     localStorage.setItem("birthdayReached", "true"); // Persist to localStorage
     setShowEffects(true);
     // Stop effects after some time
     setTimeout(() => setShowEffects(false), 10000);
-  };
+  }, []);
 
   return (
     <div className="app">
@@ -96,16 +96,20 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">[Name]</span> 🎂
+                Happy Birthday <span className="highlight">Small Fists ♥️</span>{" "}
+                🎂
               </>
             ) : (
               <>
-                Counting down to <span className="highlight">[Name]'s</span>{" "}
-                special day 🎂
+                Counting down to{" "}
+                <span className="highlight">Small Fists's</span> special day 🎂
               </>
             )}
           </h1>
-          <p>Your personalized message goes here 💗</p>
+          <p>
+            Wish you the Happiest Birthday Meri 4 Feet ki PRINCESS 💗
+            <p> Before we Start Record Your Reaction For meee</p>
+          </p>
         </section>
 
         <Countdown
@@ -170,8 +174,27 @@ function App() {
         </button>
         <Gallery isActive={currentPage === 4} />
         <section className="final">
-          <h2 className="final-message">💖 Forever Yours — [Your Name] 💖</h2>
-          <p className="final-subtitle">Your personalized closing message ✨</p>
+          <h2 className="final-message">
+            💖 Hopefully Forever Yours — Himmy...... 💖
+          </h2>
+          <p className="final-subtitle">
+            So i wish you to have the happiest day of your life the day you
+            deserve as the PRINCESS you are haha May all your wishes come true
+            you may your expectations and goals are achieved and met much faster
+            may your hard work is Rewarded 10000000x more than you have worked
+            for hehe
+            <p>
+              I won't say this again so better listen to this carefully baakkkkk
+              ahh you do matter to me i don't know how to show it to you but
+              your existence does make a difference in my life so this day is
+              muchh more SPECIAL and IMPORTANT to me then it is to YOU hehhe
+            </p>
+            <p>
+              I'll absolutely deny it if you mentioned this to anyone i never
+              said this 😂 anyways happy Birthday my 4 feet 🐾 ki princess enjoy
+              your day ♥️ ✨
+            </p>
+          </p>
         </section>
       </div>
 
