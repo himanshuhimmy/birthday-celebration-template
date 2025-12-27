@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import { useCallback, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./App.css";
 import CelebrationPage from "./components/CelebrationPage";
 import Countdown from "./components/Countdown";
@@ -17,13 +17,13 @@ function App() {
 
   // ⚠️ FOR TESTING: Comment out lines 18-21 to reset on every reload
   // Check localStorage to persist birthday reached state
-  const [birthdayReached, setBirthdayReached] = useState(() => {
-    const saved = localStorage.getItem("birthdayReached");
-    return saved === "true";
-  });
+  // const [birthdayReached, setBirthdayReached] = useState(() => {
+  //   const saved = localStorage.getItem("birthdayReached");
+  //   return saved === "true";
+  // });
 
   // ✅ FOR TESTING: Uncomment this line to always show countdown on reload
-  // const [birthdayReached, setBirthdayReached] = useState(false);
+  const [birthdayReached, setBirthdayReached] = useState(false);
 
   const [showEffects, setShowEffects] = useState(false);
 
@@ -73,13 +73,13 @@ function App() {
     });
   };
 
-  const handleBirthdayReached = useCallback(() => {
+  const handleBirthdayReached = () => {
     setBirthdayReached(true);
     localStorage.setItem("birthdayReached", "true"); // Persist to localStorage
     setShowEffects(true);
     // Stop effects after some time
     setTimeout(() => setShowEffects(false), 10000);
-  }, []);
+  };
 
   return (
     <div className="app">
@@ -107,7 +107,10 @@ function App() {
             )}
           </h1>
           <p>
-            Wish you the Happiest Birthday Meri 4 Feet ki PRINCESS 💗
+            {birthdayReached
+              ? ` Wish you the Happiest Birthday Meri 4 Feet ki PRINCESS 💗`
+              : ` Countdown to the day we celebrate YOU! `}
+
             <p> Before we Start Record Your Reaction For meee</p>
           </p>
         </section>
