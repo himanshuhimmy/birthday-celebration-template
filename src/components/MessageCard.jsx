@@ -21,6 +21,23 @@ I have seen you how much you care for people and animals that's what makes you "
 
 I know world can be cruel can do wrong with us even when you have good intentions so it doesn't mean that you stop caring and change the way you are my wishes for you is never to change no matter what because your existence in someone's life and you efforts do Make a difference in this world and make it even better place for animals and for us humans too 
 
+You can't look away when someone is in need,
+ you feed the strays as if they are your own ,
+ you wish good for people,
+ you don't need to look for love My dear because you are the very definition of it!!!!
+thats why..... 
+
+You are 10/10 because you show up when it matters
+You are 20/10 because you care deeply
+You are 30/10 because you make people feel seen
+You are 40/10 because you are a good listener
+You are 50/10 because you are patient and emotionally mature
+You are 60/10 because you carry your responsibilities with elegance
+You are 70/10 because you make the world a better place just by being you
+You are 80/10 because you stay true to yourself
+You are 90/10 because you choose growth over comfort
+You are ♾️/10 because you make people feel they are 100/10
+
 So wishing you the happiest birthday ♥️🎉
 
 — from yours Truly hehe`;
