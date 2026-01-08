@@ -23,14 +23,16 @@ I know world can be cruel can do wrong with us even when you have good intention
 
 You can't look away when someone is in need,
  you feed the strays as if they are your own ,
- you wish good for people,
+ you are gentle with peoples feeling,
+ even when you don"t have to be,
  you don't need to look for love My dear because you are the very definition of it!!!!
 thats why..... 
 
 You are 10/10 because you show up when it matters
 You are 20/10 because you care deeply
 You are 30/10 because you make people feel seen
-You are 40/10 because you are a good listener
+You are 40/10 because you listen to understand !! 
+not just to respond 
 You are 50/10 because you are patient and emotionally mature
 You are 60/10 because you carry your responsibilities with elegance
 You are 70/10 because you make the world a better place just by being you
