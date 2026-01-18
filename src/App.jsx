@@ -24,7 +24,6 @@ function App() {
 
   // ✅ FOR TESTING: Uncomment this line to always show countdown on reload
   const [birthdayReached, setBirthdayReached] = useState(false);
-
   const [showEffects, setShowEffects] = useState(false);
 
   const page1Ref = useRef(null); // Countdown page
@@ -182,22 +181,6 @@ function App() {
         <section className="final">
           <h2 className="final-message">💖 Best Wishes...... 💖</h2>
           <p className="final-subtitle">
-            {/* <p>You are 10/10 because you show up when it matters</p>
-            <p>You are 20/10 because you care deeply</p>
-            <p>You are 30/10 because you make people feel seen</p>
-            <p>You are 40/10 because you are a good listener</p>
-            <p>You are 50/10 because you are patient and emotionally mature</p>
-            <p>
-              You are 60/10 because you carry your responsibilities with
-              elegance
-            </p>
-            <p>
-              You are 70/10 because you make the world a better place just by
-              being you
-            </p>
-            <p>You are 80/10 because you stay true to yourself</p>
-            <p>You are 90/10 because you choose growth over comfort</p> */}
-            {/* <p>You are ♾️/10 because you make people feel they are 100/10</p> */}
             So i wish you to have the happiest day of your life the day you
             deserve as the PRINCESS you are haha May all your wishes come true
             you may your expectations and goals are achieved and met much faster
