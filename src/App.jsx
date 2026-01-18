@@ -110,7 +110,7 @@ function App() {
               <p>Wishing the happiest birthday to my 4-feet-tall PRINCESS 💗</p>
             ) : (
               <>
-                <p>Countdown to the day we celebrate YOU!</p>
+                <p>Countdown to the day our PRINCESS was stolen</p>
                 <p>Before we start, Record your reaction for me 😌</p>
               </>
             )}
@@ -128,7 +128,9 @@ function App() {
               ? "💖 Ready for your surprise! 💖"
               : "✨ A special celebration awaits you at midnight... ✨"}
           </h2>
-          <p className="teaser-hint">Something magical is about to unfold 💫</p>
+          <p className="teaser-hint">
+            Something magical is about to unfold Princess💫
+          </p>
         </section>
 
         <button
